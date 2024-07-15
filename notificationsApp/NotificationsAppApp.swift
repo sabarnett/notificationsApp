@@ -13,10 +13,15 @@
 import SwiftUI
 
 @main
-struct notificationsAppApp: App {
+struct NotificationsAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+        }
+        
+        Settings {
+            SettingsView()
+                .frame(minWidth: 300, minHeight: 200)
         }
     }
 }

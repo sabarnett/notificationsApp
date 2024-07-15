@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8151CC72C4550F100732341 /* notificationsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8151CC62C4550F100732341 /* notificationsAppApp.swift */; };
+		E8151CC72C4550F100732341 /* NotificationsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8151CC62C4550F100732341 /* NotificationsAppApp.swift */; };
 		E8151CC92C4550F100732341 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8151CC82C4550F100732341 /* ContentView.swift */; };
 		E8151CCB2C4550F200732341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8151CCA2C4550F200732341 /* Assets.xcassets */; };
 		E8151CCE2C4550F200732341 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8151CCD2C4550F200732341 /* Preview Assets.xcassets */; };
+		E8151CD62C4551B100732341 /* AppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8151CD52C4551B100732341 /* AppNotifications.swift */; };
+		E8151CD82C45533A00732341 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8151CD72C45533A00732341 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E8151CC32C4550F100732341 /* notificationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notificationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8151CC62C4550F100732341 /* notificationsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationsAppApp.swift; sourceTree = "<group>"; };
+		E8151CC62C4550F100732341 /* NotificationsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsAppApp.swift; sourceTree = "<group>"; };
 		E8151CC82C4550F100732341 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8151CCA2C4550F200732341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8151CCD2C4550F200732341 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8151CCF2C4550F200732341 /* notificationsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = notificationsApp.entitlements; sourceTree = "<group>"; };
+		E8151CD52C4551B100732341 /* AppNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotifications.swift; sourceTree = "<group>"; };
+		E8151CD72C45533A00732341 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		E8151CC52C4550F100732341 /* notificationsApp */ = {
 			isa = PBXGroup;
 			children = (
-				E8151CC62C4550F100732341 /* notificationsAppApp.swift */,
+				E8151CC62C4550F100732341 /* NotificationsAppApp.swift */,
 				E8151CC82C4550F100732341 /* ContentView.swift */,
+				E8151CD72C45533A00732341 /* SettingsView.swift */,
+				E8151CD52C4551B100732341 /* AppNotifications.swift */,
 				E8151CCA2C4550F200732341 /* Assets.xcassets */,
 				E8151CCF2C4550F200732341 /* notificationsApp.entitlements */,
 				E8151CCC2C4550F200732341 /* Preview Content */,
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8151CD62C4551B100732341 /* AppNotifications.swift in Sources */,
+				E8151CD82C45533A00732341 /* SettingsView.swift in Sources */,
 				E8151CC92C4550F100732341 /* ContentView.swift in Sources */,
-				E8151CC72C4550F100732341 /* notificationsAppApp.swift in Sources */,
+				E8151CC72C4550F100732341 /* NotificationsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
