@@ -29,7 +29,9 @@ struct ContentView: View {
         }
         .padding()
         .onReceive(AppNotifications.refreshPreview) { userData in
-            guard let userInfo = userData.userInfo as NSDictionary? as! [String: String]? else { return }
+            guard let userInfo = userData.userInfo 
+                    as NSDictionary?
+                    as! [String: String]? else { return }
 
             self.updateId = userInfo["updateId"] ?? "Unknown"
             self.updatedTime = userInfo["updateTime"] ?? "Unknown"

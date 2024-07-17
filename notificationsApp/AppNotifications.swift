@@ -12,7 +12,6 @@
 import Foundation
 
 struct AppNotifications {
-    // Refresh the preview window. Called when the settings are changed
     static let RefreshPreviewNotification: String = "refreshPreviewNotification"
     static var refreshPreview: NotificationCenter.Publisher {
         NotificationCenter.default.publisher(for: Notification.Name(rawValue: AppNotifications.RefreshPreviewNotification))
